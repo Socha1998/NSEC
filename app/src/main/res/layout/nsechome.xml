@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
 
-    android:background="@drawable/nseclogo">
+    >
 
     <Button
         android:id="@+id/Notice"
@@ -17,10 +17,13 @@
         android:text="LETTERS AND NOTICES"
         android:textSize="18sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="84dp"
         android:alpha=".9"
         android:onClick="noticeClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.195"
 
 
 
@@ -40,6 +43,11 @@
         tools:layout_editor_absoluteY="184dp"
         android:alpha="0.9"
         android:onClick="examClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39"
         />
 
     <Button
@@ -54,5 +62,11 @@
         tools:layout_editor_absoluteY="287dp"
         android:alpha="0.90"
         android:onClick="studentClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.59"
+
         />
 </android.support.constraint.ConstraintLayout>

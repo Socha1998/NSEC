@@ -6,22 +6,21 @@ import android.content.Intent;
 import android.view.View;
 import android.widget.Button;
 
+
+
 public class NsecHome extends AppCompatActivity {
 
     public void noticeClick(View view)
     {
-        Intent nsec= new Intent(this,Notices.class);
-        startActivity(nsec);
+        Intent i= new Intent(this,Notices.class);
+        startActivity(i);
     }
     public void examClick(View view)
     {
-        Intent nsec= new Intent(this,Notices.class);
-        startActivity(nsec);
     }
     public void studentClick(View view)
     {
-        Intent nsec= new Intent(this,Notices.class);
-        startActivity(nsec);
+
     }
 
 

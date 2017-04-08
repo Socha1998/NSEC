@@ -4,41 +4,41 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/firstYear"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_menu_send"
             android:title="First year"
             android:onClick=""/>
         <item
             android:id="@+id/secondYear"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/ic_menu_send"
             android:title="Second Year"
             android:onClick=""/>
         <item
             android:id="@+id/thirdYear"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_menu_send"
             android:title="Third year"
             android:onClick=""/>
         <item
             android:id="@+id/fourthYear"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_menu_send"
             android:title="Forth Year"
             android:onClick=""/>
         <item
             android:id="@+id/generalNotice"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_menu_send"
             android:title="College Notice"
             android:onClick=""/>
     </group>
 
-    <item android:title="menu">
+    <item android:title="Abouts">
         <menu>
             <item
                 android:id="@+id/nav_share"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:title="Credits" />
             <item
                 android:id="@+id/nav_send"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:title="Share" />
         </menu>
     </item>
 
