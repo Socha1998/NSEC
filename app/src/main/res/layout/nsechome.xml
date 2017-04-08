@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    android:background="@drawable/nseclogo">
+
+    <Button
+        android:id="@+id/Notice"
+        android:layout_width="370dp"
+        android:layout_height="65dp"
+        android:background="@color/colorPrimary"
+        android:text="LETTERS AND NOTICES"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="84dp"
+        android:alpha=".9"
+        android:onClick="noticeClick"
+
+
+
+
+
+        />
+
+    <Button
+        android:id="@+id/Exam"
+        android:layout_width="366dp"
+        android:layout_height="61dp"
+        android:background="@color/colorPrimary"
+        android:text="Exams And Syllabus Notices"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="184dp"
+        android:alpha="0.9"
+        android:onClick="examClick"
+        />
+
+    <Button
+        android:id="@+id/Students"
+        android:layout_width="366dp"
+        android:layout_height="61dp"
+        android:background="@color/colorPrimary"
+        android:text="Students Log"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="287dp"
+        android:alpha="0.90"
+        android:onClick="studentClick"
+        />
+</android.support.constraint.ConstraintLayout>
